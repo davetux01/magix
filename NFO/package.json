@@ -1,0 +1,26 @@
+{
+  "author": "11rcombs (https://github.com/11rcombs)",
+  "name": "NFO-Generator",
+  "description": "Generates an NFO for a video file",
+  "version": "1.0.0beta18",
+  "homepage": "https://github.com/11rcombs/NFO-Generator",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/11rcombs/NFO-Generator.git"
+  },
+  "dependencies": {
+    "request": ">=2.9.202",
+    "mime": ">=1.2.5",
+    "nomnom": ">=1.5.1",
+    "xml2js": ">=0.1.14"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6.15"
+  },
+  "bin": {
+    "mknfo": "./MakeNFO.js"
+  },
+  "preferGlobal": true
+}
